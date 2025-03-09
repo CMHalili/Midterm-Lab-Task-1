@@ -16,17 +16,16 @@ Step 2:
 
 
 Step 3: Here's the screenshot of my output before i started data cleaning (see screenshot)
-
-![Image](https://github.com/CMHalili/EDM-V3/blob/1d0af8f51477f0e36fdb168d6fb60274f4c7cd0f/Images/rawdata.jpg)
+![Image](https://github.com/user-attachments/assets/64d59016-49ba-464d-86a9-723ad5859d8d)
 
 
 Step 4: Here's the screenshot of my output after i started data cleaning (see screenshot)
 
-![Image](https://github.com/CMHalili/EDM-V3/blob/5174f6389de8f40e37b599e64c8a4681213cb912/Images/cleaneddata.jpg)
+![Image](https://github.com/user-attachments/assets/4abc2748-a9e1-4185-9354-b8d3ae37e91d)
 
 
 Here's the physical data model
 
-![Image](https://github.com/CMHalili/EDM-V3/blob/ce1aea7f0c313bd86f315b04f2428ff9366d9e61/Images/diagram.jpg)
+![Image](https://github.com/user-attachments/assets/2cb810e0-ad47-4d39-9041-16df06b9b8af)
 
 
