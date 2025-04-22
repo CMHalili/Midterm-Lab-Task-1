@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Midterm Lab Task 1 - Data Normalization</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #1c1e21;
+      overflow-x: hidden;
+      background: url('https://img1.picmix.com/output/stamp/normal/0/7/8/0/2580870_8444e.gif') repeat;
+      background-size: 200px;
+    }
+
+    header {
+      padding: 3rem 2rem 1rem;
+      background-color: #00CDFEcc;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #00CDFEcc;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      color: #1877f2;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .card p, .card a {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #1c1e21;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    footer {
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+      background-color: #00CDFEcc;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Midterm Lab Task 1</h1>
+    <p>Data Normalization and Cleaning Process</p>
+  </header>
+
+  <div style="max-width: 900px; margin: 2rem auto; padding: 0 2rem;">
+    <section>
+      <h2>Portfolio Overview</h2>
+      <div class="card">
+        <p>This portfolio demonstrates the process of data normalization and cleaning applied to a transactional database. The dataset consists of multiple related tables, each designed to improve data organization and eliminate redundancy.</p>
+      </div>
+
+      <h2>Step by Step Process</h2>
+      <div class="card">
+        <h3>Step 1:</h3>
+        <ul>
+          <li>Load the raw file</li>
+          <li>Fix columns width and height</li>
+          <li>Trim words and spaces</li>
+          <li>Remove Null values</li>
+          <li>Remove Duplicates</li>
+        </ul>
+
+        <h3>Step 2:</h3>
+        <ul>
+          <li>Performed 1NF</li>
+          <li>Performed Table split using 2NF</li>
+          <li>Performed 2NF</li>
+          <li>Mapped the normalization as a physical data model</li>
+        </ul>
+
+        <h3>Step 3:</h3>
+        <p>Here's the screenshot of my output before I started data cleaning:</p>
+        <img src="https://github.com/user-attachments/assets/64d59016-49ba-464d-86a9-723ad5859d8d" alt="Before Data Cleaning"/>
+
+        <h3>Step 4:</h3>
+        <p>Here's the screenshot of my output after I started data cleaning:</p>
+        <img src="https://github.com/user-attachments/assets/4abc2748-a9e1-4185-9354-b8d3ae37e91d" alt="After Data Cleaning"/>
+
+        <h3>Physical Data Model:</h3>
+        <img src="https://github.com/user-attachments/assets/2cb810e0-ad47-4d39-9041-16df06b9b8af" alt="Physical Data Model"/>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    ©Cassandra Halili | Class I102 | 2025
+  </footer>
+
+</body>
+</html>
