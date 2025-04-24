@@ -1,4 +1,4 @@
-# Midterm Lab Task 1
+# [Midterm Lab Task 1](https://github.com/user-attachments/files/19892874/MidtermLab.Halili.xlsx)
 This portfolio Demonstrates the process of data normalization and cleaning applied to a transactional database. The dataset consists of multiple related tables, each designed to improve data organization and eliminate redundancy.
 # Step by Step Process
 Step 1:
